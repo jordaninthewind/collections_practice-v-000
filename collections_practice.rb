@@ -29,7 +29,9 @@ end
 
 def kesha_maker(array)
   array.map do |el|
-    el.chars.map.with_index { |ltr, i| ltr = $ if i == 2}
+    el = el.split("")
+    el[2] = $
+    el.join
   end
 end
 
