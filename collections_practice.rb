@@ -24,7 +24,7 @@ def swap_elements(array) # how to do with sort method?
 end
 
 def reverse_array(array)
-
+  array.reverse
 end
 
 def kesha_maker(array)
