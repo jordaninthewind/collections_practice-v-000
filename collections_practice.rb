@@ -28,11 +28,13 @@ def reverse_array(array)
 end
 
 def kesha_maker(array)
-  array.map do |el|
+  return_array = []
+  array.each do |el|
     el = el.chars
     el[2] = "$"
-    el.join("")
+    return_array << el.join("")
   end
+  return_array
 end
 
 def find_a(array)
