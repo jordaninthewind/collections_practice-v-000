@@ -29,7 +29,7 @@ end
 
 def kesha_maker(array)
   array.map do |el|
-    el = el.split("")
+    el = el.chars
     el[2] = "$"
     el.join("")
   end
