@@ -25,9 +25,9 @@ end
 
 def reverse_array(array)
   # array.reverse
-  # return_array = []
-  array.map { | el | array.push(el) }
-
+  return_array = []
+  array.map { | el | return_array.push(el) }
+  return_array
 end
 
 def kesha_maker(array)
