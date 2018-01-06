@@ -26,7 +26,7 @@ end
 def reverse_array(array)
   # array.reverse
   # return_array = []
-  array.map { | el | return_array.shift(el) }
+  array.map { | el | array.shift(el) }
 
 end
 
