@@ -24,7 +24,5 @@ def swap_elements(array) # how to do with sort method?
 end
 
 def reverse_array(array)
-  return_array = []
-  array.map { |el| return_array << array.shift }
-  return_array
+
 end
