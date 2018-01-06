@@ -29,7 +29,7 @@ end
 
 def kesha_maker(array)
   array.map do |el|
-    el.chars.map.with_index { |let, i| let = $ if i == 2}
+    el.chars.map.with_index { |ltr, i| ltr = $ if i == 2}
   end
 end
 
